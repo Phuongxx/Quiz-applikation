@@ -1,0 +1,13 @@
+@use "../base/variables" as variable;
+
+.app__controls {
+  margin: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__button {
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+}
