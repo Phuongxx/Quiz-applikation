@@ -1,0 +1,16 @@
+@use "../base/variables" as variable;
+
+.app__progress-board {
+  width: 90%;
+  background-color: variable.$secondary-color;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin: variable.$spacing-unit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__progress-title {
+  font-family: variable.$font-body;
+  margin-top: 1rem;
+}
