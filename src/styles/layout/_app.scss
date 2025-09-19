@@ -1,0 +1,8 @@
+@use "../base/variables" as variable;
+.app {
+  min-height: 100vh;
+  background-color: variable.$primary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
