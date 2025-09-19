@@ -1,28 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use "base/reset";
+@use "base/variables";
+@use "base/typography";
 
-.app {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &__progress-board {
-    background-color: red;
-    margin: 1rem;
-    width: 90%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  &__lives {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style: none;
-    background-color: blue;
-  }
-}
+@use "layout/app";
+
+@use "components/progress-board";
+@use "components/progress-bar";
+@use "components/lives";
+@use "components/questions";
+@use "components/answers";
+@use "components/controls";
+
+@use "pages/quiz";
