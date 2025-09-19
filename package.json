@@ -1,0 +1,16 @@
+{
+  "name": "quiz-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass --watch src/styles/main.scss output.css"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1",
+    "vite": "^6.3.5"
+  }
+}
