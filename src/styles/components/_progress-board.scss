@@ -3,7 +3,8 @@
 .app__progress-board {
   width: 90%;
   background-color: variable.$secondary-color;
-  border-radius: 0.5rem 0.5rem 0 0;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
   margin: variable.$spacing-unit;
   display: flex;
   flex-direction: column;
