@@ -1,0 +1,16 @@
+@use "variables" as variable;
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap");
+
+.app__progress-title,
+.app__question-text {
+  color: variable.$main-font-color;
+  letter-spacing: 0.1rem;
+}
+
+.app__answer {
+  font-family: variable.$font-body;
+}
+
+.app__button {
+  font-size: 1.2rem;
+}
