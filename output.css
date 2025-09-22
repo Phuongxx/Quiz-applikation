@@ -27,11 +27,14 @@ ul {
 .app__button {
   font-size: 1.2rem;
   font-family: "Pixelify Sans", sans-serif;
+<<<<<<< HEAD
 }
 
 .app__start-button {
   font-size: 1.2rem;
   font-family: "Pixelify Sans", sans-serif;
+=======
+>>>>>>> facdad4842b3822794a2123b0316bf85054de2f3
 }
 
 .app {
@@ -116,6 +119,7 @@ ul {
   border-radius: 0.3rem;
   padding: 0.6rem;
   background-color: #f04679;
+<<<<<<< HEAD
 }
 
 .app__game-menu {
@@ -133,6 +137,8 @@ ul {
   border-radius: 0.4rem;
   padding: 1.3rem;
   background-color: #f04679;
+=======
+>>>>>>> facdad4842b3822794a2123b0316bf85054de2f3
 }
 
 /*# sourceMappingURL=output.css.map */
