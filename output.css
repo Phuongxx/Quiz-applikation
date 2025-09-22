@@ -29,6 +29,12 @@ ul {
   font-family: "Pixelify Sans", sans-serif;
 }
 
+.app__start-button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
 .app {
   min-height: 100vh;
   background-color: #97dcff;
@@ -110,6 +116,23 @@ ul {
 .app__button {
   border-radius: 0.3rem;
   padding: 0.6rem;
+  background-color: #f04679;
+}
+
+.app__game-menu {
+  height: calc(100vh - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #97dcff;
+  border: solid 10px #60b0f6;
+}
+
+.app__start-button {
+  position: absolute;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.3rem;
   background-color: #f04679;
 }
 

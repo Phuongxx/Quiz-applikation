@@ -1,0 +1,18 @@
+@use "../base/variables" as variable;
+
+.app__game-menu {
+  height: calc(100vh - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: variable.$primary-color;
+  border: solid 10px variable.$secondary-color;
+}
+
+.app__start-button {
+  position: absolute;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.3rem;
+  background-color: variable.$color-text-secondary;
+}
