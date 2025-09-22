@@ -27,14 +27,11 @@ ul {
 .app__button {
   font-size: 1.2rem;
   font-family: "Pixelify Sans", sans-serif;
-<<<<<<< HEAD
 }
 
 .app__start-button {
   font-size: 1.2rem;
   font-family: "Pixelify Sans", sans-serif;
-=======
->>>>>>> facdad4842b3822794a2123b0316bf85054de2f3
 }
 
 .app {
@@ -119,16 +116,13 @@ ul {
   border-radius: 0.3rem;
   padding: 0.6rem;
   background-color: #f04679;
-<<<<<<< HEAD
 }
 
 .app__game-menu {
-  height: calc(100vh - 20px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #97dcff;
-  border: solid 10px #60b0f6;
 }
 
 .app__start-button {
@@ -137,8 +131,15 @@ ul {
   border-radius: 0.4rem;
   padding: 1.3rem;
   background-color: #f04679;
-=======
->>>>>>> facdad4842b3822794a2123b0316bf85054de2f3
+}
+
+.app__menu-video {
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
 /*# sourceMappingURL=output.css.map */

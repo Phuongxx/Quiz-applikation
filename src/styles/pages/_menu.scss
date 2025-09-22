@@ -1,12 +1,10 @@
 @use "../base/variables" as variable;
 
 .app__game-menu {
-  height: calc(100vh - 20px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: variable.$primary-color;
-  border: solid 10px variable.$secondary-color;
 }
 
 .app__start-button {
@@ -15,4 +13,12 @@
   border-radius: 0.4rem;
   padding: 1.3rem;
   background-color: variable.$color-text-secondary;
+}
+.app__menu-video {
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
