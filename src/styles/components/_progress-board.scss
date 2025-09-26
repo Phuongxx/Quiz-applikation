@@ -9,6 +9,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (min-width: variable.$tablet) {
+    max-width: 768px;
+  }
 }
 
 .app__progress-title {

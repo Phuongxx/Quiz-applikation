@@ -2,12 +2,14 @@
 
 .app__questions {
   width: 90%;
-  //   background-color: variable.$secondary-color;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 65vh;
+  @media (min-width: variable.$tablet) {
+    max-width: 768px;
+  }
 }
 
 .app__question-text {
@@ -17,4 +19,8 @@
   padding: 1rem 0;
   border-radius: 5px;
   width: 100%;
+  @media (min-width: variable.$tablet) {
+    max-width: 768px;
+    padding: 3rem 0;
+  }
 }

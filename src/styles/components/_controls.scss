@@ -5,6 +5,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  @media (min-width: variable.$tablet) {
+    justify-content: left;
+    gap: 1rem;
+  }
 }
 
 .app__button {
