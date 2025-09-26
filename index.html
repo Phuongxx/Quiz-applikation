@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <section class="app__game-menu">
+    <!-- <section class="app__game-menu">
       <video src="src/video/PixelBiker.mp4" class="app__menu-video"></video>
       <button class="app__start-button" onclick="nextQuestion()">
         Start the Game
       </button>
-    </section>
+    </section> -->
+    <div id="wrapper"></div>
     <main class="app">
-      <div class="wrapper" id="test"></div>
-      <!-- <header class="app__progress-board">
+      <header class="app__progress-board">
         <h1 class="app__progress-title">Progress:</h1>
-        <progress
-          class="app__progress-bar"
-
-        "
-        ></progress>
+        <progress class="app__progress-bar"></progress>
         <ul class="app__lives">
           <li class="app__life"><img src="src/img/pixelHeart.png" alt="" /></li>
           <li class="app__life"><img src="src/img/pixelHeart.png" alt="" /></li>
@@ -45,10 +41,12 @@
         </ul>
         <div class="app__controls">
           <button class="app__button">show answer</button>
-          <button class="app__button">next question</button>
+          <button class="app__button" onclick="nextQuestion()">
+            next question
+          </button>
         </div>
       </section>
-      <footer></footer> -->
+      <footer></footer>
     </main>
     <script src="src/Java-Script/main.js"></script>
   </body>
