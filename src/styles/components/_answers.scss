@@ -6,6 +6,11 @@
   flex-direction: column;
   gap: 1rem;
   align-items: stretch;
+  @media (min-width: variable.$tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 .app__answer {
@@ -15,4 +20,7 @@
   border-radius: 0.5rem;
   cursor: pointer;
   width: 100%;
+  @media (min-width: variable.$tablet) {
+    height: 8rem;
+  }
 }
