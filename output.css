@@ -80,9 +80,9 @@ ul {
   text-align: center;
   margin: 1rem;
   background-color: #60b0f6;
-  padding: 1rem;
+  padding: 1rem 0;
   border-radius: 5px;
-  width: 90%;
+  width: 100%;
 }
 
 .app__answers-list {
@@ -98,9 +98,6 @@ ul {
   background-color: #60b0f6;
   border: none;
   border-radius: 0.5rem;
-  padding: 0.5rem;
-  width: 20rem;
-  margin: 0 auto;
   cursor: pointer;
   width: 100%;
 }
